@@ -1,16 +1,20 @@
 
-# Tun/tap kernel driver for Mac OS X.
+# Tun/tap kernel driver for Mac OS X
 
-Yosemite compatible instruction.
+## Requirements
+
+Yosemite compatible instruction
 
 Need homebrew installed.
+
+## Installation
 
 Install tuntap:
 <pre>
 brew install tuntap
 </pre>
 
-Disregard post installation instructions from homwbrew and use instead:
+Disregard post installation instructions from homebrew and use instead:
 ```
 sudo cp -pR /usr/local/Cellar/tuntap/20111101/Library/Extensions/tap.kext /Library/Extensions
 sudo cp -pR /usr/local/Cellar/tuntap/20111101/Library/Extensions/tun.kext /Library/Extensions
