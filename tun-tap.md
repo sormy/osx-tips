@@ -1,5 +1,5 @@
 
-# Tun/tap kernel driver for Mac OS X
+# TUN/TAP extension for Mac OS X
 
 ## Requirements
 
