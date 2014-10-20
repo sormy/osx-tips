@@ -25,7 +25,7 @@ sudo nvram boot-args="kext-dev-mode=1" # allow to load unsigned extensions in yo
 ```
 
 `/Library/LaunchDaemons/tun.plist`:
-<pre>
+```
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -48,10 +48,10 @@ sudo nvram boot-args="kext-dev-mode=1" # allow to load unsigned extensions in yo
         <string>root</string>
 </dict>
 </plist>
-</pre>
+```
 
 `/Library/LaunchDaemons/tap.plist`:
-<pre>
+```
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -74,6 +74,4 @@ sudo nvram boot-args="kext-dev-mode=1" # allow to load unsigned extensions in yo
         <string>root</string>
 </dict>
 </plist>
-</pre>
 ```
-</pre>
